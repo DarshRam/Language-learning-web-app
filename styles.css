@@ -1,0 +1,710 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fcefe9;
+  }
+
+  header {
+    background: url('C:/Users/RHEA KURIAN/Downloads/2.jpg') center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+    z-index: 1000;
+    position: relative;
+  }
+
+  header h1 {
+    text-shadow: 5px 5px 8px black;
+  }
+
+  header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ff8c00;
+    padding: 2px;
+  }
+
+  nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  article h3 {
+    color: #ff8c00;
+  }
+
+  article p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+
+  article ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  article li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  article li:hover {
+    transform: scale(1.1);
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 8px;
+  }
+
+  footer {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+  }
+
+    #vocabulary {
+    background: url('C:/Users/RHEA KURIAN/Downloads/7.jpg') center center fixed;
+    background-size: cover;
+    color: black; /* Adjust text color to be visible against the background */
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+  #vocabulary h2 {
+    font-size: 5em; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font bold */
+    margin-bottom: 5px; /* Add some bottom margin for spacing */
+    margin-top: 5px; /* Add some bottom margin for spacing */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for readability */
+    border: 2px solid black; /* Add a solid border with a light gray color */
+  }
+
+  #vocabulary article {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for readability */
+    border: 2px solid black; /* Add a solid border with a light gray color */
+    border-radius: 15px; /* Add rounded corners to the article container */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+
+  #vocabulary article h3 {
+    color: red; /* Adjust heading color to be visible against the background */
+  }
+
+  #vocabulary article ul {
+    background-color: rgba(255, 255, 255, 0.6); /* Add a semi-transparent white background for readability */
+    border-radius: 8px; /* Add rounded corners to the list container */
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  #vocabulary article li {
+    background-color: #4caf50; /* Retain the original background color for list items */
+    border: 1.5px solid black; /* Add a solid border with a light gray color */
+    border-radius: 6px; /* Add rounded corners to the list items */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    padding: 10px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #vocabulary article li:hover {
+    transform: scale(1.1);
+  }
+
+#grammar {
+background: url('C:/Users/RHEA KURIAN/Downloads/12.jpg') center center fixed;
+background-size: cover;
+color: black; /* Adjust text color to be visible against the background */
+padding: 20px; /* Adjust padding as needed */
+}
+
+#grammar h2 {
+font-size: 5em; /* Adjust the font size as needed */
+font-weight: bold; /* Make the font bold */
+margin-bottom: 5px; /* Add some bottom margin for spacing */
+margin-top: 5px; /* Add some top margin for spacing */
+background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for readability */
+border: 2px solid black; /* Add a solid border with a light gray color */
+}
+
+#grammar article {
+background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for readability */
+border: 2px solid black; /* Add a solid border with a light gray color */
+border-radius: 15px; /* Add rounded corners to the article container */
+margin-bottom: 20px; /* Adjust margin as needed */
+padding: 20px; /* Adjust padding as needed */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+#grammar article h3 {
+color: blue; /* Adjust heading color to be visible against the background */
+}
+
+#grammar article ul {
+background-color: rgba(255, 255, 255, 0.6); /* Add a semi-transparent white background for readability */
+border-radius: 8px; /* Add rounded corners to the list container */
+padding: 10px; /* Adjust padding as needed */
+}
+
+#grammar article li {
+background-color: #4caf50; /* Retain the original background color for list items */
+border: 1.5px solid black; /* Add a solid border with a light gray color */
+border-radius: 6px; /* Add rounded corners to the list items */
+margin-bottom: 10px; /* Adjust margin as needed */
+padding: 10px; /* Adjust padding as needed */
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+}
+
+#grammar article li:hover {
+transform: scale(1.1);
+}
+
+#exercises {
+  background: url('C:/Users/RHEA KURIAN/Downloads/13.jpg') center center fixed;
+  background-size: cover;
+  color: black; /* Adjust text color to be visible against the background */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+#exercises h2 {
+  font-size: 5em; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the font bold */
+  margin-bottom: 5px; /* Add some bottom margin for spacing */
+  margin-top: 5px; /* Add some top margin for spacing */
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for readability */
+  border: 2px solid black; /* Add a solid border with a light gray color */
+}
+
+#exercises article {
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for readability */
+  border: 2px solid black; /* Add a solid border with a light gray color */
+  border-radius: 15px; /* Add rounded corners to the article container */
+  margin-bottom: 20px; /* Adjust margin as needed */
+  padding: 20px; /* Adjust padding as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+#exercises article h3 {
+  color: blue; /* Adjust heading color to be visible against the background */
+}
+
+#exercises article ul {
+  background-color: rgba(255, 255, 255, 0.6); /* Add a semi-transparent white background for readability */
+  border-radius: 8px; /* Add rounded corners to the list container */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+#exercises article li {
+  background-color: #4caf50; /* Retain the original background color for list items */
+  border: 1.5px solid black; /* Add a solid border with a light gray color */
+  border-radius: 6px; /* Add rounded corners to the list items */
+  margin-bottom: 10px; /* Adjust margin as needed */
+  padding: 10px; /* Adjust padding as needed */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+#exercises article li:hover {
+  transform: scale(1.1);
+}
+
+
+.matching-container {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 20px;
+}
+
+.word-container, .image-container {
+text-align: center;
+cursor: pointer;
+padding: 10px;
+border: 2px solid #4caf50;
+border-radius: 8px;
+transition: background-color 0.3s ease-in-out;
+}
+
+.word-container:hover, .image-container:hover {
+background-color: #4caf50;
+color: white;
+}
+
+#check-button {
+margin-top: 20px;
+padding: 10px;
+background-color: #4caf50;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+display: block; /* Ensure the button takes full width */
+margin: 0 auto; /* Center the button */
+}
+
+#result {
+margin-top: 10px;
+font-weight: bold;
+}
+
+/* Additional styles for sentence completion */
+#sentence-completion {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+      }
+
+      #sentence-completion input {
+          margin-top: 5px;
+      }
+
+      /* Additional styles for the sentence completion feedback */
+      #sentence-completion-feedback {
+          margin-top: 10px;
+          font-weight: bold;
+      }
+
+.mc-option {
+          display: inline-block;
+          margin: 0 10px;
+          padding: 10px;
+          border: 2px solid #4caf50;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: background-color 0.3s ease-in-out;
+      }
+
+      .mc-option:hover {
+          background-color: #4caf50;
+          color: white;
+      }
+
+      /* Styles for the multiple-choice feedback */
+      #multiple-choice-feedback {
+          margin-top: 10px;
+          font-weight: bold;
+      }
+
+/* Styles for the true/false feedback */
+#true-false-feedback {
+margin-top: 10px;
+font-weight: bold;
+}
+
+/* Additional styles for fill in the blank */
+#fill-in-the-blank {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+      }
+
+      #fill-in-the-blank input {
+          margin-top: 5px;
+      }
+
+      /* Additional styles for the fill in the blank feedback */
+      #fill-in-the-blank-feedback {
+          margin-top: 10px;
+          font-weight: bold;
+      }
+
+/* Additional styles for reading section */
+.reading {
+          margin-bottom: 20px;
+      }
+
+      .reading-passage {
+          margin-bottom: 10px;
+      }
+
+      .reading-questions {
+          margin-bottom: 10px;
+      }
+
+      .reading-feedback {
+          margin-top: 10px;
+          font-weight: bold;
+      }
+
+/* Background and styling for the reading section */
+#reading {
+  background: url('C:/Users/RHEA KURIAN/Downloads/14.jpg') center center fixed;
+  background-size: cover;
+  color: black;
+  padding: 20px;
+}
+
+#reading h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black; /* Add black border */
+}
+
+#reading article {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid black; /* Add black border */
+}
+
+#reading article h3 {
+  color: purple;
+}
+
+#reading article p {
+  margin-bottom: 15px;
+}
+
+#reading article ul {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#reading article li {
+  background-color: #4caf50;
+  border: 1.5px solid black;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+#reading article li:hover {
+  transform: scale(1.1);
+}
+
+#reading button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid black; /* Add black border */
+}
+
+/* Styles for the Writing Section */
+#writing {
+  background: url('C:/Users/RHEA KURIAN/Downloads/16.jpg') center center fixed;
+  background-size: cover;
+  color: black; /* Black text */
+  padding: 20px;
+}
+
+#writing h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.writing-prompt {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+  border: 2px solid black; /* Black border */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#writing article h3 {
+  color: darkblue;
+}
+
+/* Styles for the Listening Section */
+#listening {
+  background: url('C:/Users/RHEA KURIAN/Downloads/17.jpg') center center fixed;
+  background-size: cover;
+  color: black; /* Black text */
+  padding: 20px;
+}
+
+#listening h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.listening-prompt {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+  border: 2px solid black; /* Black border */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.listening-prompt p {
+  margin-bottom: 15px; /* Add your styles for paragraph elements */
+}
+
+.listening-prompt button {
+  background-color: #4caf50;
+  color: white; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; /* Add your styles for button elements */
+}
+
+/* Add your specific styles for interactive elements within each listening prompt */
+.listening-prompt h3 {
+  color: red;
+}
+
+/* Styles for the Conversation Section */
+#conversation {
+  background: url('C:/Users/RHEA KURIAN/Downloads/19.jpg') center center fixed;
+  background-size: cover;
+  color: black; /* Black text */
+  padding: 20px;
+}
+
+#conversation h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.conversation-prompt {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+  border: 2px solid black; /* Black border */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.conversation-response {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 2px solid black; /* Black border */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#conversation article h3 {
+  color: hotpink;
+}
+
+/* Styles for the Fun Facts Section */
+#fun-facts {
+  background: url('C:/Users/RHEA KURIAN/Downloads/20.jpg') center center fixed;
+  background-size: cover;
+  color: black; /* Black text */
+  padding: 20px;
+}
+
+#fun-facts h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.fun-fact {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+  border: 2px solid black; /* Black border */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#fun-facts article h3 {
+  color: teal;
+}
+
+/* Styles for the Riddles Section */
+#riddles {
+  background: url('C:/Users/RHEA KURIAN/Downloads/21.jpg') center center fixed;
+  background-size: cover;
+  color: black; /* Black text */
+  padding: 20px;
+}
+
+#riddles h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.riddle {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+  border: 2px solid black; /* Black border */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.riddle p {
+  margin-bottom: 15px; /* Add your styles for paragraph elements */
+}
+
+.riddle button {
+  background-color: #4caf50;
+  color: white; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; /* Add your styles for button elements */
+}
+
+/* Add your specific styles for interactive elements within each riddle */
+.riddle h3 {
+  color: maroon;
+}
+
+/* Styles for the Riddles Section */
+
+#story-time {
+  background: url('C:/Users/RHEA KURIAN/Downloads/23.jpg') center center fixed;
+  background-size: cover;
+  color: black; /* Black text */
+  padding: 20px;
+}
+
+#story-time h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.story {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+  border: 2px solid black; /* Black border */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.story p {
+  margin-bottom: 15px; /* Add your styles for paragraph elements */
+}
+
+.story button {
+  background-color: #4caf50;
+  color: white; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; /* Add your styles for button elements */
+}
+
+/* Add your specific styles for interactive elements within each story */
+.story h3 {
+  color: navy;
+}
